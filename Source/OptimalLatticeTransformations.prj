@@ -1,0 +1,91 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="4162766968" file="C:\Users\Anton\Dropbox\Kostas and Anton\2015 Bain Paper\Matlab Program\OptimalLatticeTransformations.prj" location="C:\Users\Anton\Dropbox\Kostas and Anton\2015 Bain Paper\Matlab Program" name="OptimalLatticeTransformations" target="target.mlapps" target-name="Package App">
+    <param.appname>OptimalLatticeTransformations</param.appname>
+    <param.authnamewatermark>Anton Muehlemann</param.authnamewatermark>
+    <param.email>muehleman@maths.ox.ac.uk</param.email>
+    <param.company>University of Oxford</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>Determines the Optimal Lattice Transformation between any two simple Bravais lattices</param.summary>
+    <param.description>Supplemenray program to the paper &lt;a href="Optimality of general lattice transformations"&gt;http://arxiv.org/abs/1510.04708&lt;/a&gt;</param.description>
+    <param.screenshot>C:\Users\Anton\Dropbox\Screenshots\Screenshot 2016-01-24 16.23.03.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+    </param.products.name>
+    <param.products.id>
+      <item>'1'</item>
+    </param.products.id>
+    <param.products.version>
+      <item>8.5</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}\OptimalLatticeTransformations.mlappinstall</param.output>
+    <param.guid>64bada6a-1f74-47d7-939a-f10144d01c2f</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\OptLat.m</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\anbound.m</file>
+      <file>${PROJECT_ROOT}\convType.m</file>
+      <file>${PROJECT_ROOT}\cubeplot.m</file>
+      <file>${PROJECT_ROOT}\findmin.m</file>
+      <file>${PROJECT_ROOT}\optdef.m</file>
+      <file>${PROJECT_ROOT}\OptLat.fig</file>
+      <file>${PROJECT_ROOT}\pdec.m</file>
+      <file>${PROJECT_ROOT}\ToPar.m</file>
+      <file>${PROJECT_ROOT}\toprim.m</file>
+      <file>${PROJECT_ROOT}\volchange.m</file>
+      <file>${PROJECT_ROOT}\volchangecrit.m</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\SL1.mat</file>
+      <file>${PROJECT_ROOT}\SL1i.mat</file>
+      <file>${PROJECT_ROOT}\SL2.mat</file>
+      <file>${PROJECT_ROOT}\SL2i.mat</file>
+      <file>${PROJECT_ROOT}\SL3.mat</file>
+      <file>${PROJECT_ROOT}\SL3i.mat</file>
+      <file>${PROJECT_ROOT}\SL4.mat</file>
+      <file>${PROJECT_ROOT}\SL4i.mat</file>
+      <file>${PROJECT_ROOT}\SL5.mat</file>
+      <file>${PROJECT_ROOT}\SL5i.mat</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Anton\Dropbox\Kostas and Anton\2015 Bain Paper\Matlab Program" name="OptimalLatticeTransformations.mlappinstall" optional="false">C:\Users\Anton\Dropbox\Kostas and Anton\2015 Bain Paper\Matlab Program\OptimalLatticeTransformations.mlappinstall</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2015a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
